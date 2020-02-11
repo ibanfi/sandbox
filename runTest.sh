@@ -28,5 +28,5 @@ if [[ -v MANIFEST_PATH ]]; then
   echo "Running test on $1"
   cargo test --manifest-path=$MANIFEST_PATH
 else
-  echo $1 artifact not found
+  echo $1 artifact not found!
 fi
