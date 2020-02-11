@@ -8,7 +8,7 @@
 # 
 # ARTIFACT can be: lplatform, app, marketplace, ilp_serviceplatform, app, marketplace, ilp_service
 
-case "$1" in
+case $1 in
   platform)
     MANIFEST_PATH=server/platform/Cargo.toml
   ;;
