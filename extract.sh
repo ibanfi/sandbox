@@ -1,4 +1,0 @@
-#!/bin/bash
-echo $GO_SCM_SANDBOX_POLLER_PR_DESCRIPTION
-OUT=$(echo $GO_SCM_SANDBOX_POLLER_PR_DESCRIPTION | grep -i artifact)
-echo $OUT 
