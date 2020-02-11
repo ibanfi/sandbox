@@ -1,4 +1,4 @@
 #!/bin/bash
-echo $1
-OUT=$(echo $1 | grep -i artifact)
+echo $GO_SCM_SANDBOX_POLLER_PR_DESCRIPTION
+OUT=$(echo $GO_SCM_SANDBOX_POLLER_PR_DESCRIPTION | grep -i artifact)
 echo $OUT 
