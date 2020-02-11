@@ -1,5 +1,5 @@
 #!/bin/bash
-# Run specified test
+# Run test for specified artifacts
 #
 # Usage:
 #   ./runTest.sh ARTIFACT
